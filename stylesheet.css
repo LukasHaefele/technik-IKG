@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+@media screen and (max-width: 500px)
+{
+    p.text{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 4vw;
+    }
+    body{
+        /*background-color: lightskyblue;*/
+        font-family: 'Montserrat', sans-serif;
+        padding:8px 40px;
+        display: flex;
+        justify-content: center;
+    }
+    h1, h3{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    p.button{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    p.area{
+        text-align: center;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 15%;
+        position: absolute;
+    }
+    #input{
+        position: relative;
+        font-size: 4vw;
+    }
+    #area{
+        position: relative;
+        font-size: 3vw;
+    }
+    #select{
+        position: relative;
+        font-size: 3vw;
+    }
+    img{
+        display: none;
+    }
+    .headButton{
+        display: none;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .hide{
+        display: none;
+    }
+    #sendForm{
+        bottom: 5px;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 12000px)
+{
+    p.text{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    body{
+        /*background-color: lightskyblue;*/
+        font-family: 'Montserrat', sans-serif;
+        padding:8px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1, h3{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    p.button{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    p.area{
+        text-align: center;
+    }
+    img{
+        position: absolute;
+        width: 5%;
+        margin-top: 0%;
+    }.headButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        width: 80px;
+        height: 20px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    table{
+        margin: 0;
+        font-size: large;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #inputButton{
+        width: 80px;
+        margin: auto;
+    }
+    .hide{
+        display: none;
+    }
+    #sendForm{
+        bottom: 5px;
+        position: absolute;
+    }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
+h1,h3{
+    font-family: 'Arvo', serif;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding:8px 40px;
+}
+input,select{
+    font-family: inherit;
+    font-size: inherit;
+    padding: 4px 2px;
+    border: 2px solid #4444;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    
+    padding: 6px 8px;
+}
+select[name="Fächer[]"]{
+    height: 200px;
+    width: 300px;
+}
+h3{
+    margin-top: 40px;
+}
+form{
+    display: inline-flex;
+    flex-direction: column;
+}
+p{
+    margin: 8px 0px;
+}
+table{
+    /* text-align: center; */
+    border-spacing: 2px 4px;
+}
+/*html{
+    background-image: url("background.jpg");
+}*/
+#tl{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
