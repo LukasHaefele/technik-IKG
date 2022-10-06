@@ -1,1 +1,3 @@
 var.php
+*.zip
+*/connection.php

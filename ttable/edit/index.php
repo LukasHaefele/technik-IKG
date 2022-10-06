@@ -1,6 +1,6 @@
 <?php
   include '../../var.php';
-  if($_GET["pw"] == $thPass){
+  if(!isset($_COOKIE["auth_cor"]) && $_GET["pw"] == $thPass){
     setcookie("auth_cor","1",time()+1000,"/");
   }else{
     $_home = false;
@@ -27,7 +27,7 @@
   <body>
     <?php
       include "../../dbc/connection.php";
-      $conn = OpenCon($srv);
+      $conn = OpenCon();
       $sql = "SELECT * FROM timetable ORDER BY Day ASC";
       
       $maxID = 0;

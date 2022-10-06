@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#mainpage {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 25px auto auto auto;
+}
+#mainpage #login {
+  margin: 30px auto 20px auto;
+  text-align: center;
+}
+
+#button {
+  margin: 10px auto auto auto;
+}
+
+#add {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+}
+
+#home {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#req {
+  margin: 50px;
+}
+
+#failure {
+  position: absolute;
+  margin: 50px auto auto auto;
+  font-size: larger;
+}
+
+#hide {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

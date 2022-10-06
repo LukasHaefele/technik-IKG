@@ -4,7 +4,7 @@ Careful, the security in this project is far from perfect since most of the secu
 
 ## What you need to do before using:
 
-There is a file you will have to create before you can safely use these tools. It is called "var.php" and is to be placed in the technik/ folder itself. The file will need to carry the variables that have sensitive information like the login for the database, the emails for Task automation and the passwords for authentication.
+There is a file you will have to create before you can safely use these tools. It is called "var.php" and is to be placed in the technik/ folder itself. The file will need to carry the variables that have sensitive information like the passwords for authentication. You'll also have to include the files in the dbc directory which handles your database connection.
 
 ## How it works:
 
